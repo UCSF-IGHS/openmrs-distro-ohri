@@ -26,3 +26,6 @@ ddb6b595-0b85-4a80-9243-efe4ba404eef,,org.openmrs.module.mdrtb,The required conc
 cf7414cf-4423-4110-85b9-eae8689691de,,IMO-ProblemIT,"Intelligent Medical Objects, Inc. problem/disease/finding datasource",,
 3f65bd34-26fe-102b-80cb-0017a47871b2,,ICD-10-WHO,"International Classification for Diseases version 10, WHO",,
 2b3c2778-768a-102f-83f4-12313b04a615,,PIH-Malawi,"Partners In Health, Malawi",,
+4277c661-9198-4618-90f4-13b7824b0184,,SNOMED-UK,Imported from https://api.openconceptlab.org/orgs/CIEL/sources/CIEL/mappings/333199/,,
+a23ff4da-aaac-456f-8d39-1e25c97274a7,,IMO-ProcedureIT,Imported from https://api.openconceptlab.org/orgs/CIEL/sources/CIEL/mappings/319916/,,
+fac8a60a-bb4d-4595-ad35-b58c4fff522f,,SNOMED-US,Imported from https://api.openconceptlab.org/orgs/CIEL/sources/CIEL/mappings/308332/,,
