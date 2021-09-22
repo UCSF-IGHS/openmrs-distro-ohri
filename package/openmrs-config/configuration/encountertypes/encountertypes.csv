@@ -15,4 +15,4 @@ d2d108f4-856b-401b-821d-76056c2914a3,,HTS Result Collection,An encounter where p
 cb0a65a7-0587-477e-89b9-cf2fd144f1d4,,Clinical Visit,Encounter type associated with a clinical visit,,,
 902839fa-f58c-44a1-95a4-dba62d7263f8,,COVID Case Report,CARES COVID case report encounter type,,,
 253a43d3-c99e-415c-8b78-ee7d4d3c1d54,,COVID Case Assessment,This encounter type is shared across the COVID Assessment Form/COVID Outcome Form and COVID Lab Result Form,,,
-5b37ce7a-c55e-4226-bdc8-5af04025a6de,,Vaccination,This encounter type is used for vaccinations and will be used by the Vaccination Form. It applies for a vaccination whose status is "Complete",,,
+5b37ce7a-c55e-4226-bdc8-5af04025a6de,,COVID Vaccination,This encounter type is used for COVID vaccination encounters to record vaccination administration,,,
