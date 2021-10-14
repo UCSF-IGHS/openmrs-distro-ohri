@@ -16,3 +16,4 @@ cb0a65a7-0587-477e-89b9-cf2fd144f1d4,,Clinical Visit,Encounter type associated w
 902839fa-f58c-44a1-95a4-dba62d7263f8,,COVID Case Report,CARES COVID case report encounter type,,,
 253a43d3-c99e-415c-8b78-ee7d4d3c1d54,,COVID Case Assessment,This encounter type is shared across the COVID Assessment Form/COVID Outcome Form and COVID Lab Result Form,,,
 5b37ce7a-c55e-4226-bdc8-5af04025a6de,,COVID Vaccination,This encounter type is used for COVID vaccination encounters to record vaccination administration,,,
+15272be5-ae9c-4278-a303-4b8907eae73b,,HIV Lab Order and Results,HIV Lab Order and Results,,,
