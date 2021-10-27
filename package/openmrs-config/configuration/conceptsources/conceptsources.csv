@@ -29,3 +29,7 @@ cf7414cf-4423-4110-85b9-eae8689691de,,IMO-ProblemIT,"Intelligent Medical Objects
 4277c661-9198-4618-90f4-13b7824b0184,,SNOMED-UK,Imported from https://api.openconceptlab.org/orgs/CIEL/sources/CIEL/mappings/333199/,,
 a23ff4da-aaac-456f-8d39-1e25c97274a7,,IMO-ProcedureIT,Imported from https://api.openconceptlab.org/orgs/CIEL/sources/CIEL/mappings/319916/,,
 fac8a60a-bb4d-4595-ad35-b58c4fff522f,,SNOMED-US,Imported from https://api.openconceptlab.org/orgs/CIEL/sources/CIEL/mappings/308332/,,
+47d94ae7-4513-4f44-a5ab-07b5cfc88f3a,,ICD-11-WHO,Imported from https://api.openconceptlab.org/orgs/CIEL/sources/CIEL/mappings/269136/,,
+e5d252c1-b071-4c25-9027-68f6e94de37e,,HL-7-CVX,Imported from https://api.openconceptlab.org/orgs/CIEL/sources/CIEL/mappings/956365/,,
+dbf095ee-0fd3-4848-9481-ab3d88c5f24f,,MVX,Imported from https://api.openconceptlab.org/orgs/CIEL/sources/CIEL/mappings/630661/,,
+547ad52b-c5bd-4a3a-b9a6-bbe9691aefab,,OHRI,Open HIV Reference Implementation,,
