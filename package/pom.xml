@@ -4,12 +4,11 @@
 
     <parent>
         <groupId>org.openmrs.distro</groupId>
-        <artifactId>openmrs-distro-ohri</artifactId>
-        <relativePath>../pom.xml</relativePath>
+        <artifactId>ohri</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>openmrs-distro-package</artifactId>
+    <artifactId>ohri-package</artifactId>
     <name>OHRI package</name>
     <packaging>pom</packaging>
 
@@ -41,17 +40,10 @@
     <dependencies>
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>openmrs-config-refapp</artifactId>
+            <artifactId>ohri-config</artifactId>
             <type>zip</type>
-            <version>3.1.0-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>spa-config-refapp</artifactId>
-            <type>zip</type>
-            <version>3.1.0-SNAPSHOT</version>
-        </dependency>
-
         <!-- Module dependencies -->
         <dependency>
             <groupId>org.openmrs.module</groupId>
@@ -131,20 +123,7 @@
                         <configuration>
                             <excludeTransitive>true</excludeTransitive>
                             <outputDirectory>${distro.openmrsConfigDir}</outputDirectory>
-                            <includeArtifactIds>openmrs-config-refapp</includeArtifactIds>
-                        </configuration>
-                    </execution>
-                    <!-- SPA config -->
-                    <execution>
-                        <id>unpack-refapp-config-spa</id>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>unpack-dependencies</goal>
-                        </goals>
-                        <configuration>
-                            <excludeTransitive>true</excludeTransitive>
-                            <outputDirectory>${distro.spaConfigDir}</outputDirectory>
-                            <includeArtifactIds>spa-config-refapp</includeArtifactIds>
+                            <includeArtifactIds>ohri-config</includeArtifactIds>
                         </configuration>
                     </execution>
                     <!-- Unpack OpenMRS distro package -->
@@ -158,7 +137,7 @@
                         </goals>
                         <configuration>
                             <outputDirectory>${openmrsRunDistroTargetDir}</outputDirectory>
-                            <artifact>${project.groupId}:openmrs-distro-package:${project.version}:zip</artifact>
+                            <artifact>${project.groupId}:ohri-package:${project.version}:zip</artifact>
                         </configuration>
                     </execution>
                 </executions>
